@@ -1,6 +1,7 @@
 1--
 
  here you made cluster but nodes showing not ready 0/1
+ 
  here you made pod too but same pending state ready 0/1
 
 ---------------------------------------------------------------------------
