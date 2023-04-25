@@ -66,6 +66,7 @@ setenforce 0
   #  yum install -y kubelet kubeadm kubectl --disableexcludes=kubernetes
   #  systemctl enable kubelet && systemctl start kubelet
   #  service kubelet status--(not active)
+     (though go for next step)
 ---------- to make instance as a MASTER----------------- 
 6-- 
   #  kubeadm init --ignore-preflight-errors=all
@@ -103,7 +104,7 @@ setenforce 0
 10--
   
   #  note - now complete kube worker node installation 
-
+      
 
   #  service kubelet restart
 
@@ -121,15 +122,6 @@ setenforce 0
 
 -----------------------------------------------------------------------------------
                        
-
-
-
-#-----------------
-kubeadm join 172.31.38.88:6443 --token ii7oi2.92o88kf89w4pz320 \
-        --discovery-token-ca-cert-hash sha256:f9e9b7fc1c472ba59a9acc6cad8557791e058b0f9ba3ff3cba807d26e6aed1c3
-
- kubeadm join 172.31.39.23:6443 --token gn5ywx.tgyvudmdgigpeq59 \
-        --discovery-token-ca-cert-hash sha256:4155b64dd3c28636e47ef8f86b2de6b4d94b87a2dab50957c92dbb396a721a0f
 
 
 
